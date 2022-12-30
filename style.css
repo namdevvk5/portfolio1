@@ -1,0 +1,80 @@
+#parent {
+  /* display: flex;
+    align-items: center;
+   height: 150px;*/
+margin-top: 50px;
+margin-left: 25%;
+
+}
+
+body{
+    background-image: url(./bg.png);
+}
+#pic{
+border: 1px solid black;
+border-radius:50%;
+}
+.nav a{
+    text-decoration: none;
+    margin-left: 1px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(197, 227, 228);
+}
+.about{
+    display: flex;
+   
+}
+#para{
+    width: 50%;
+}
+#abt{
+    margin-top: 80px;
+}
+#img1 img{
+    border: 1px solid black;
+    border-radius: 190px;
+    margin-left: 90px;
+    opacity: 0.9;
+}
+#img1 img:hover {
+    opacity: 1.0;
+  }
+#parent,.nav{
+   justify-content:space-between;
+}
+#pics{
+    text-align: center;
+    border:1px solid black;
+    border-radius: 50px;
+}
+#video1 ,video{
+    display: grid;
+    grid-template-columns: 10px ;
+    grid-template-rows: 10px;
+    gap: 10%;
+    padding-top: 30px;
+    border: 1px solid rgb(12, 11, 11);
+    padding-left: 60px;
+   
+}
+
+#screen,img{
+    display: grid;
+    grid-template-columns: 20px;
+    border: 1px solid rgb(12, 11, 11);
+}
+#video1{
+    display: flex;
+}
+.navbar{
+    width: 33%;
+}
+#footer{
+    color: rgb(111, 56, 214);
+    text-align: center;
+    font-size: larger;
+    font-weight: 100;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
